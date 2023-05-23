@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: boot-exception
+  messages:
+    basename: i18n/messages # 配置国际化资源访问路径
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+
+server:
+  port: 8001

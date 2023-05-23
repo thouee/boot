@@ -18,6 +18,8 @@
     <modules>
         <module>boot-swagger</module>
         <module>boot-mapstruct</module>
+        <module>boot-exception</module>
+        <module>boot-easyexcel</module>
     </modules>
 
     <properties>
