@@ -17,6 +17,7 @@
 
     <modules>
         <module>boot-swagger</module>
+        <module>boot-mapstruct</module>
     </modules>
 
     <properties>
