@@ -1,0 +1,33 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: boot-flyway
+  # 配置数据源
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://114.55.54.77:3306/boot-flyway?useUnicode=true&characterEncoding=UTF-8&serverTimeZone=Asia/Shanghai&useSSL=false
+    username: fs
+    password: Aa@123456
+  flyway:
+    # 是否启用 flyway，默认为 true
+    enabled: true
+    # 编码格式，默认 UTF-8
+    encoding: UTF-8
+    # 迁移脚本文件存放路径，默认为 db/migration
+    locations: classpath:db/migration
+    # 迁移脚本文件名称前缀，默认为 V
+    sql-migration-prefix: V
+    # 迁移脚本文件名称后缀，默认为 .sql
+    sql-migration-suffixes: .sql
+    # 迁移脚本文件名称间隔符，默认为 __ (两个下划线)
+    sql-migration-separator: __
+    # 任何环境强烈建议关闭，flyway 的 clean 命令会删除无论是否是 flyway 自己增加的表或数据
+    clean-disabled: true
+    # 迁移时是否进行校验，默认为 true
+    validate-on-migrate: true
+    # 当迁移发现数据库非空且存在没有元数据的表时，自动执行基准迁移，新建schema_version表
+    # 如果不是在项目刚开始就引入 flyway，而是在中途引入，则数据库可能会有历史数据
+    baseline-on-migrate: true
+#    baseline-version: 20230524001

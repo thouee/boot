@@ -1,0 +1,1 @@
+INSERT INTO sys_user VALUES ('2', 'user_2');

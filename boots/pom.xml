@@ -20,6 +20,7 @@
         <module>boot-mapstruct</module>
         <module>boot-exception</module>
         <module>boot-easyexcel</module>
+        <module>boot-flyway</module>
     </modules>
 
     <properties>
