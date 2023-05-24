@@ -43,5 +43,6 @@
         <lombok-mapstruct-binding.version>0.2.0</lombok-mapstruct-binding.version>
         <shiro.version>1.11.0</shiro.version>
         <jwt.version>4.3.0</jwt.version>
+        <easyexcel.version>3.2.1</easyexcel.version>
     </properties>
 </project>
