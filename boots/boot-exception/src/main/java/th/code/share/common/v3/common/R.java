@@ -13,7 +13,7 @@ public class R<T> extends BaseResponse {
     private T data;
 
     protected R() {
-        super();
+        super(CommonResponseMode.SUCCESS.getCode(), CommonResponseMode.SUCCESS.getMessage());
     }
 
     protected R(T data) {
@@ -26,6 +26,6 @@ public class R<T> extends BaseResponse {
     }
 
     public static R<Void> ok() {
-        return new R<>(null);
+        return new R<>();
     }
 }

@@ -17,8 +17,8 @@ public enum ERMode implements BizExceptionAssert {
     USER_IS_DISABLED(8004, "用户被禁用"),
     ;
 
-    private Integer code;
-    private String message;
+    private final Integer code;
+    private final String message;
 
     ERMode(Integer code, String message) {
         this.code = code;
