@@ -12,7 +12,6 @@
 
     <modules>
         <module>lang</module>
-        <module>applications</module>
         <module>boots</module>
     </modules>
 
