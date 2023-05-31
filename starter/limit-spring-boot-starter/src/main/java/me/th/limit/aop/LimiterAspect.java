@@ -68,7 +68,7 @@ public class LimiterAspect {
             limit.setSeconds(limiter.time());
             limiterManager.checkParams(limit);
 
-            log.info("limit key:[{}], count:[{}], time:[{}]", key, limit.getLimitNum(), limit.getSeconds());
+            log.debug("limit key:[{}], count:[{}], time:[{}]", key, limit.getLimitNum(), limit.getSeconds());
 
             boolean access = limiterManager.tryAccess(limit);
             if (!access) {
