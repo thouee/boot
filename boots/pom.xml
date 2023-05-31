@@ -21,6 +21,7 @@
         <module>boot-exception</module>
         <module>boot-easyexcel</module>
         <module>boot-flyway</module>
+        <module>boot-juc</module>
     </modules>
 
     <properties>
