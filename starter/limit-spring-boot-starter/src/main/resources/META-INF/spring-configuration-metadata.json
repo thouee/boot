@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "limiter.type",
+      "type": "me.th.limit.constant.LimiterTypeMode",
+      "description": "local：使用 Guava 本地限流，redis：使用 Redis 限流"
+    }
+  ]
+}

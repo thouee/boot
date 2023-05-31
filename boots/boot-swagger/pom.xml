@@ -51,5 +51,11 @@
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>knife4j-annotations</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>me.th</groupId>
+            <artifactId>limit-spring-boot-starter</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

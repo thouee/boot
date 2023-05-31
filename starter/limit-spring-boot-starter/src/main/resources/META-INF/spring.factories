@@ -1,0 +1,4 @@
+## AutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  me.th.limit.config.LimiterConfig,\
+  me.th.limit.aop.LimiterAspect

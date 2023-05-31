@@ -5,3 +5,10 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
+  redis:
+    port: 6379
+    host: 114.55.54.77
+    password: Aa@123456
+
+limiter:
+  type: redis
