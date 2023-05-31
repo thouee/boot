@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>th.code</groupId>
+        <groupId>me.th</groupId>
         <artifactId>boots</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <description>Mapstruct 转换器.</description>
 
     <artifactId>boot-mapstruct</artifactId>
+    <description>Mapstruct 转换器.</description>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
