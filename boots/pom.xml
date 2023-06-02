@@ -22,6 +22,7 @@
         <module>boot-easyexcel</module>
         <module>boot-flyway</module>
         <module>boot-juc</module>
+        <module>boot-serializer</module>
     </modules>
 
     <properties>
@@ -167,7 +168,7 @@
 
             <!-- lang -->
             <dependency>
-                <groupId>th.code</groupId>
+                <groupId>me.th</groupId>
                 <artifactId>lang</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
